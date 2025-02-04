@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Create = () => {
 const navigate = useNavigate();
@@ -13,8 +15,11 @@ const handleSubmit=(e)=>{
     e.preventDefault()
     axios.post('http://localhost:3000/users', val)
     .then(res => {
-        console.log(res.data);
-        navigate('/');
+        toast.success('User Created Successfully');
+        setTimeout(()=>{
+            navigate('/');
+        },5000);
+        
     })
     .catch(err => console.log(err));
 }
@@ -44,7 +49,9 @@ const handleSubmit=(e)=>{
                  <Link to='/' className="btn btn-primary ms-3">Back</Link>
 
             </form>
+            
        </div>
+       <ToastContainer/>
     </div>
   )
 }

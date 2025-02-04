@@ -1,70 +1,46 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Rajesh Sharma",
-      "email": "rajesh@example.in",
-      "phone": "+91 98765 43210"
-    },
-    {
-      "id": 2,
-      "name": "Priya Verma",
-      "email": "priya@example.in",
-      "phone": "+91 87654 32109"
-    },
-    {
-      "id": 3,
-      "name": "Amit Kumar",
-      "email": "amit@example.in",
-      "phone": "+91 91234 56789"
-    },
-    {
-      "id": 4,
-      "name": "Neha Gupta",
-      "email": "neha@example.in",
-      "phone": "+91 99876 54321"
-    },
-    {
-      "id": 5,
-      "name": "Suresh Reddy",
-      "email": "suresh@example.in",
-      "phone": "+91 96543 21098"
-    },
-    {
-      "id": 6,
-      "name": "Anjali Nair",
-      "email": "anjali@example.in",
-      "phone": "+91 97865 43219"
-    },
-    {
-      "id": 7,
-      "name": "Vikram Singh",
+      "id": "7",
+      "name": "Vikram ",
       "email": "vikram@example.in",
       "phone": "+91 92345 67890"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Kavita Iyer",
       "email": "kavita@example.in",
       "phone": "+91 98712 34567"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Arjun Joshi",
       "email": "arjun@example.in",
       "phone": "+91 87650 98765"
     },
     {
-      "id": "4adb",
-      "name": "DEVENDRA PRATAP SINGH",
-      "email": "mannu@gmail.com",
-      "phone": "07985266908"
+      "id": "3812",
+      "name": "Rajesh Chauhan",
+      "email": "devendrapratapsingh09744233977@gmail.com",
+      "phone": "7985266908"
     },
     {
-      "id": "ec60",
-      "name": "DEVENDRA PRATAP SINGH",
-      "email": "devendrapratap019@gmail.com",
-      "phone": "07985266908"
+      "id": "a7d1",
+      "name": "Devendra Pratap Singh",
+      "email": "devendrapratapsingh09744233977@gmail.com",
+      "phone": "7388610478"
+    },
+    {
+      "id": "2dcb",
+      "name": "Devendra P",
+      "email": "Rrrrrr@gmail.com",
+      "phone": "7388610478"
+    },
+    {
+      "id": "4fa6",
+      "name": "Rajesh ",
+      "email": "D@gmail.com",
+      "phone": "7388610478"
     }
   ]
 }
